@@ -1,6 +1,6 @@
-# AI/ML Literature Review Repository
+# Mathematical Reasoning Literature Review Repository
 
-A structured and scalable repository for collecting, comparing, and synthesizing research papers in machine learning and AI.
+A structured and scalable repository for collecting, comparing, and synthesizing research papers focused on Mathematical Reasoning.
 
 This repository is designed for long-term PhD research workflows, enabling consistent documentation across hundreds of papers with a unified review schema.
 
@@ -13,41 +13,7 @@ The goal of this repository is to support systematic literature review by:
 - Recording critical analysis (strengths, limitations, and research relevance)
 - Maintaining reproducible references and optional BibTeX integration
 
-<!-- ## Repository Structure
 
-```text
-.
-+-- README.md
-+-- LICENSE
-+-- papers/
-�   +-- pdf/
-�   �   +-- 2025_Smith_ToolAugmentedReasoning.pdf
-�   �   +-- ...
-�   +-- notes/
-�   �   +-- P0001.md
-�   �   +-- ...
-�   +-- bib/
-�       +-- references.bib
-+-- tables/
-�   +-- literature_review.csv
-�   +-- literature_review.xlsx
-�   +-- literature_review.md
-+-- templates/
-    +-- paper_note_template.md
-    +-- literature_row_template.md
-``` -->
-
-<!-- ## Workflow: How to Add a Paper
-
-1. Assign a new unique paper ID (e.g., `P0142`).
-2. Save the PDF in `papers/pdf/` using the naming convention.
-3. Add a BibTeX entry to `papers/bib/references.bib` (optional but recommended).
-4. Create or update a detailed note file in `papers/notes/` (e.g., `P0142.md`).
-5. Add one row to the master table in `tables/literature_review.csv` (or `.xlsx` / `.md`).
-6. Validate completeness using the quality checklist.
-7. Commit with a descriptive message. -->
-
-## Literature Review Table Template
 
 ## Literature Review Table
 
