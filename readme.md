@@ -13,31 +13,31 @@ The goal of this repository is to support systematic literature review by:
 - Recording critical analysis (strengths, limitations, and research relevance)
 - Maintaining reproducible references and optional BibTeX integration
 
-## Repository Structure
+<!-- ## Repository Structure
 
 ```text
 .
 +-- README.md
 +-- LICENSE
 +-- papers/
-¦   +-- pdf/
-¦   ¦   +-- 2025_Smith_ToolAugmentedReasoning.pdf
-¦   ¦   +-- ...
-¦   +-- notes/
-¦   ¦   +-- P0001.md
-¦   ¦   +-- ...
-¦   +-- bib/
-¦       +-- references.bib
+ï¿½   +-- pdf/
+ï¿½   ï¿½   +-- 2025_Smith_ToolAugmentedReasoning.pdf
+ï¿½   ï¿½   +-- ...
+ï¿½   +-- notes/
+ï¿½   ï¿½   +-- P0001.md
+ï¿½   ï¿½   +-- ...
+ï¿½   +-- bib/
+ï¿½       +-- references.bib
 +-- tables/
-¦   +-- literature_review.csv
-¦   +-- literature_review.xlsx
-¦   +-- literature_review.md
+ï¿½   +-- literature_review.csv
+ï¿½   +-- literature_review.xlsx
+ï¿½   +-- literature_review.md
 +-- templates/
     +-- paper_note_template.md
     +-- literature_row_template.md
-```
+``` -->
 
-## Workflow: How to Add a Paper
+<!-- ## Workflow: How to Add a Paper
 
 1. Assign a new unique paper ID (e.g., `P0142`).
 2. Save the PDF in `papers/pdf/` using the naming convention.
@@ -45,7 +45,7 @@ The goal of this repository is to support systematic literature review by:
 4. Create or update a detailed note file in `papers/notes/` (e.g., `P0142.md`).
 5. Add one row to the master table in `tables/literature_review.csv` (or `.xlsx` / `.md`).
 6. Validate completeness using the quality checklist.
-7. Commit with a descriptive message.
+7. Commit with a descriptive message. -->
 
 ## Literature Review Table Template
 
@@ -71,39 +71,4 @@ Maintain references in a single canonical file:
 
 - `papers/bib/references.bib`
 
-Recommended practice:
 
-- Use one BibTeX entry per reviewed paper
-- Keep venue names standardized (e.g., `NeurIPS`, `ICLR`, `ICML`, `ACL`)
-- Include DOI, arXiv ID, and URL fields when available
-- Align BibTeX key format with repository naming conventions
-
-## Quality Checklist for Paper Review
-
-Before marking a paper as reviewed, verify:
-
-- [ ] Bibliographic metadata is complete (authors, year, venue, links)
-- [ ] Problem statement is clearly and accurately summarized
-- [ ] Key contribution is concise and technically specific
-- [ ] Method type is categorized consistently
-- [ ] Datasets and metrics are explicitly recorded
-- [ ] Strengths and limitations include concrete technical points
-- [ ] Artifact availability (code/data/models) is verified
-- [ ] Personal verdict states relevance to your research direction
-- [ ] Table formatting and naming conventions are consistent
-
-## Scalability Guidelines
-
-For long-term management of large literature sets (100+ papers):
-
-- Keep `tables/literature_review.csv` as the source of truth for analysis
-- Reserve `.xlsx` for manual filtering/visual review when needed
-- Do not recycle paper IDs; preserve historical traceability
-- Use controlled vocabulary in the `Area` and `Method Type` columns
-- Prefer append-and-update workflows over destructive edits
-
-## License and Copyright
-
-- Add a repository `LICENSE` file (commonly `MIT` for repository structure/scripts or `CC BY 4.0` for notes).
-- Original research papers remain the intellectual property of their respective authors/publishers.
-- Store and share PDFs only in compliance with publisher and copyright policies.
