@@ -1,6 +1,53 @@
-# Mathematical Reasoning Literature Tracker
+# AI/ML Literature Review Repository
 
-Structured literature tracker on mathematical reasoning papers. This table is designed for scalable review workflows (100+ papers) with consistent comparison fields.
+A structured and scalable repository for collecting, comparing, and synthesizing research papers in machine learning and AI.
+
+This repository is designed for long-term PhD research workflows, enabling consistent documentation across hundreds of papers with a unified review schema.
+
+## Repository Purpose
+
+The goal of this repository is to support systematic literature review by:
+
+- Tracking paper metadata and technical contributions in a standardized format
+- Comparing methods, datasets, and evaluation practices across studies
+- Recording critical analysis (strengths, limitations, and research relevance)
+- Maintaining reproducible references and optional BibTeX integration
+
+<!-- ## Repository Structure
+
+```text
+.
++-- README.md
++-- LICENSE
++-- papers/
+�   +-- pdf/
+�   �   +-- 2025_Smith_ToolAugmentedReasoning.pdf
+�   �   +-- ...
+�   +-- notes/
+�   �   +-- P0001.md
+�   �   +-- ...
+�   +-- bib/
+�       +-- references.bib
++-- tables/
+�   +-- literature_review.csv
+�   +-- literature_review.xlsx
+�   +-- literature_review.md
++-- templates/
+    +-- paper_note_template.md
+    +-- literature_row_template.md
+``` -->
+
+<!-- ## Workflow: How to Add a Paper
+
+1. Assign a new unique paper ID (e.g., `P0142`).
+2. Save the PDF in `papers/pdf/` using the naming convention.
+3. Add a BibTeX entry to `papers/bib/references.bib` (optional but recommended).
+4. Create or update a detailed note file in `papers/notes/` (e.g., `P0142.md`).
+5. Add one row to the master table in `tables/literature_review.csv` (or `.xlsx` / `.md`).
+6. Validate completeness using the quality checklist.
+7. Commit with a descriptive message. -->
+
+## Literature Review Table Template
 
 ## Literature Review Table
 
@@ -13,9 +60,20 @@ Structured literature tracker on mathematical reasoning papers. This table is de
 | 5 | NeuroSymbolic LLM for Mathematical Reasoning and Software Engineering | 2024 | IJCAI 2024 |  |  |  |  |  | [Paper](https://www.ijcai.org/proceedings/2024/961) |
 | 6 | AgenticMath: Enhancing LLM Reasoning via Agentic-based Math Data Generation | 2026 (Jan) | arXiv |  |  |  |  |  | [Paper](https://arxiv.org/abs/2510.19361) |
 
-## Usage Notes
+## Naming Conventions
 
-- Fill each blank cell after reviewing the full paper and supplementary materials.
-- Keep method names consistent across rows (e.g., SFT, DPO, RL, Multi-Agent, Neuro-Symbolic).
-- Use short, evidence-based entries for `Strength`, `Weakness`, and `Gaps`.
-- Add new papers by appending rows and preserving numbering.
+- **Paper ID:** `P0001`, `P0002`, ... (fixed-width numeric IDs)
+- **PDF filename:** `YYYY_FirstAuthor_ShortTitle.pdf`
+  - Example: `2024_Wang_SelfConsistencyReasoning.pdf`
+- **Notes filename:** `<PaperID>.md`
+  - Example: `P0001.md`
+- **BibTeX key:** `FirstAuthorYearShortTag`
+  - Example: `Wang2024SelfConsistency`
+
+## Optional BibTeX Management
+
+Maintain references in a single canonical file:
+
+- `papers/bib/references.bib`
+
+
