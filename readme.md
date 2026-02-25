@@ -14,14 +14,23 @@ The schema is designed for long-term PhD workflows and scales to hundreds of pap
 
 Use one row per paper. Keep entries concise, technical, and evidence-based.
 
-| No. | Paper | Year | Venue | Dataset | Method | Strength | Weakness | Gaps | Link |
+| No. | Paper | Paper link | Code link | Venue/Year | Dataset | Method | Strength | Weakness | Gaps |
 |---:|---|---|---|---|---|---|---|---|---|
-| 1 | VCR: A "Cone of Experience" Driven Synthetic Data Generation Framework for Mathematical Reasoning | 2025 | AAAI 2025 |  |  |  |  |  | [Paper](https://doi.org/10.1609/aaai.v39i23.34645) |
-| 2 | Flow-DPO: Improving LLM Mathematical Reasoning | 2024 (Oct) | Microsoft Research (Preprint) |  |  |  |  |  | [Paper](https://arxiv.org/abs/2410.22304) |
-| 3 | Group-in-Group Policy Optimization for LLM Agent Training | 2025 | NeurIPS 2025 (Poster) |  |  |  |  |  | [Paper](https://arxiv.org/abs/2505.10978) |
-| 4 | Adaptive Coopetition: Leveraging Coarse Verifier Signals for Resilient Multi-Agent LLM Reasoning | 2025 | arXiv / IJCNLP 2025 SRW |  |  |  |  |  | [Paper](https://arxiv.org/abs/2510.18179) |
-| 5 | NeuroSymbolic LLM for Mathematical Reasoning and Software Engineering | 2024 | IJCAI 2024 |  |  |  |  |  | [Paper](https://www.ijcai.org/proceedings/2024/961) |
-| 6 | AgenticMath: Enhancing LLM Reasoning via Agentic-based Math Data Generation | 2026 (Jan) | arXiv |  |  |  |  |  | [Paper](https://arxiv.org/abs/2510.19361) |
+| 1 | Multi-language Diversity Benefits Autoformalization | https://proceedings.neurips.cc/paper_files/paper/2024/hash/984de836e696ba653bbfbbbfce31d3bc-Abstract-Conference.html |  | NeurIPS 24 |  |  |  |  |  |
+| 2 | MASA: LLM-Driven Multi-Agent Systems for Autoformalization | https://aclanthology.org/2025.emnlp-demos.44/ |  | EMNLP 25 |  |  |  |  |  |
+| 4 | Adaptive Coopetition: Leveraging Coarse Verifier Signals for Resilient Multi-Agent LLM Reasoning | https://aclanthology.org/2025.ijcnlp-srw.13/ |  | Arxiv 25 |  |  |  |  |  |
+| 5 | NeuroSymbolic LLM for Mathematical Reasoning and Software Engineering | https://www.ijcai.org/proceedings/2024/0961 |  | IJCAI 24 |  |  |  |  |  |
+| 6 | AgenticMath: Enhancing LLM Reasoning via Agentic-based Math Data Generation | https://arxiv.org/abs/2510.19361 |  | Arxiv 2026 |  |  |  |  |  |
+| 7 | MATH-Perturb: Benchmarking LLMs' Math Reasoning Abilities against Hard Perturbations | https://proceedings.mlr.press/v267/huang25k.html |  |  |  |  |  |  |  |
+| 9 | A Symbolic Framework for Evaluating Mathematical Reasoning and Generalisation with Transformers | https://aclanthology.org/2024.naacl-long.84/ |  | NAACL 24 |  |  |  |  |  |
+| 10 | HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs | https://arxiv.org/abs/2511.18760 |  | Arxiv 25 |  |  |  |  |  |
+| 11 | CER: Confidence Enhanced Reasoning in LLMs | https://aclanthology.org/2025.acl-long.390/ | https://github.com/sharif-ml-lab/CER | ACL 25 |  |  |  |  |  |
+| 12 | Quantization Meets Reasoning: Exploring LLM Low-Bit Quantization Degradation for Mathematical Reasoning | https://arxiv.org/abs/2501.03035 |  | Arxiv 25 |  |  |  |  |  |
+| 13 | Towards Thinking-Optimal Scaling of Test-Time Compute for LLM Reasoning | https://arxiv.org/abs/2502.18080 |  | Microsoft research, NeurIPS 25 (poster) |  |  |  |  |  |
+| 14 | rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking | https://proceedings.mlr.press/v267/guan25f.html |  | Microsoft research |  |  |  |  |  |
+| 15 | MindStar: Enhancing Math Reasoning in Pre-trained LLMs at Inference Time | https://arxiv.org/abs/2405.16265 |  | Arxiv 24 |  |  |  |  |  |
+| 16 | Mario: Math reasoning with code interpreter output-a reproducible pipeline | https://aclanthology.org/2024.findings-acl.53/ |  | ACL 24 |  |  |  |  |  |
+| 17 |  |  |  |  |  |  |  |  |  |
 
 
 
