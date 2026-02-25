@@ -16,7 +16,7 @@ Use one row per paper. Keep entries concise, technical, and evidence-based.
 
 | No. | Paper | Paper/Code | Venue/Year | Dataset | Method | Strength | Weakness | Gaps |
 |---:|---|---|---|---|---|---|---|---|
-| 1 | Improve Mathematical Reasoning in Language Models by Automated Process Supervision | [Paper](https://arxiv.org/abs/2406.06592) | Arxiv 24 |  |  |  |  |  |
+| 1 | Improve Mathematical Reasoning in Language Models by Automated Process Supervision | [Paper](https://arxiv.org/abs/2406.06592) | Google deepmind 24 |  |  |  |  |  |
 | 2 | Multi-language Diversity Benefits Autoformalization | [Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/984de836e696ba653bbfbbbfce31d3bc-Abstract-Conference.html) | NeurIPS 24 |  |  |  |  |  |
 | 3 | MASA: LLM-Driven Multi-Agent Systems for Autoformalization | [Paper](https://aclanthology.org/2025.emnlp-demos.44/) | EMNLP 25 |  |  |  |  |  |
 | 4 | Adaptive Coopetition: Leveraging Coarse Verifier Signals for Resilient Multi-Agent LLM Reasoning | [Paper](https://aclanthology.org/2025.ijcnlp-srw.13/) | Arxiv 25 |  |  |  |  |  |
